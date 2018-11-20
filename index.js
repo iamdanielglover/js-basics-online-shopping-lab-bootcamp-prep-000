@@ -25,7 +25,7 @@ function viewCart() {
     }
     var inCart = "In your cart, you have";
     if (newArray.length ===1) {
-      inCart + newArray + '.';
+      inCart += newArray + '.';
     }
 }
 
