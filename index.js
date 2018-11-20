@@ -24,6 +24,9 @@ function viewCart() {
     newArray.push(` ${item} at $${price}, `);
     }
     var inCart = "In your cart, you have";
+    if (newArray.length ===1) {
+      
+    }
 }
 
 function total() {
