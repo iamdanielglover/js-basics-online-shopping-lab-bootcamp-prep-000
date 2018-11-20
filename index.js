@@ -23,12 +23,7 @@ function viewCart() {
     var listCart = [];
     listCart.push(` ${item} at $${price}, `);
     }
-    
-    
-    if (i === 1) {
-      listCart.push
-    }
-  }
+    var inCart = "In your cart, you have";
 }
 
 function total() {
