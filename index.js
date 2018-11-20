@@ -21,7 +21,7 @@ function viewCart() {
   // write your code here
   var newarray = [];
   for(var i = 0; i < cart.length; i++) {
-    newArray.push(`${item} at $${price}`);
+    newarray.push(`${item} at $${price}`);
     }
     var inCart = "In your cart, you have";
     if (newarray.length ===1) {
@@ -32,7 +32,10 @@ function viewCart() {
       var lastelement = newarray.pop();
       var other_item = newarray.join(', ');
       inCart += (other_item + ', and' + lastelement + '.');
-    } 
+    } else if (newarray === 0) {
+      var emptyCart = 'Your shopping cart is empty.';
+      inCart = emptyCart;
+    }
     return inCart;
 }
 
