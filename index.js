@@ -27,7 +27,7 @@ function viewCart() {
     if (newArray.length ===1) {
       inCart += newArray + '.';
     } else if (newArray ===2) {
-      inCart += (newArray[0] + 'and' + newArray[1]);
+      inCart += (newArray[0] + 'and' + newArray[1] + '.');
     }
 }
 
