@@ -21,7 +21,7 @@ function viewCart() {
   // write your code here
   var inCart = "In your cart, you have";
   var listCart = []
-  for(var i = 0; i < cart; i++) {
+  for(var i = 0; i < cart.length; i++) {
     if (i > 1) {
     listCart.push(` ${item} at $${price}, `);
     }
