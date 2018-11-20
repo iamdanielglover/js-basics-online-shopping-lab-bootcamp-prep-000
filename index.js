@@ -19,12 +19,12 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var inCart = "In your cart, you have";
-  var listCart = []
-  
   for(var i = 0; i < cart.length; i++) {
+    var listCart = [];
     listCart.push(` ${item} at $${price}, `);
     }
+    
+    
     if (i === 1) {
       listCart.push
     }
