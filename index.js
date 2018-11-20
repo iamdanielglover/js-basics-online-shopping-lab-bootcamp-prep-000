@@ -21,11 +21,11 @@ function viewCart() {
   // write your code here
   var newArray = []
   for(var i = 0; i < cart.length; i++) {
-    newArray.push(` ${item} at $${price}, `);
+    newArray.push(`${item} at $${price}`);
     }
     var inCart = "In your cart, you have";
     if (newArray.length ===1) {
-      
+      inCart + newArray + '.';
     }
 }
 
