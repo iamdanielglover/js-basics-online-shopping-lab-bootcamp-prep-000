@@ -33,7 +33,7 @@ function viewCart() {
       var other_item = newarray.join(', ');
       inCart += (other_item + ', and' + lastelement + '.');
     } else if (newarray === 0) {
-      var emptyCart = 
+      var emptyCart = 'Your shopping cart is empty.';
       inCart = emptyCart;
     }
     return inCart;
