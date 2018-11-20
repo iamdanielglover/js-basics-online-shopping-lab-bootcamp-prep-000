@@ -24,10 +24,14 @@ function viewCart() {
     newArray.push(`${item} at $${price}`);
     }
     var inCart = "In your cart, you have";
-    if (newArray.length ===1) {
-      inCart += newArray + '.';
-    } else if (newArray ===2) {
-      inCart += (newArray[0] + 'and' + newArray[1] + '.');
+    if (newarray.length ===1) {
+      inCart += newarray + '.';
+    } else if (newarray ===2) {
+      inCart += (newarray[0] + 'and' + newarray[1] + '.');
+    } else if (newarray > 2) {
+      var lastelement = newarray.pop();
+      var other_item = newarray.join(', ');
+      inCart += (other_item + ', and' + lastelement + '.');
     }
 }
 
