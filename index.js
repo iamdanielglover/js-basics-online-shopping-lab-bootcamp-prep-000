@@ -26,8 +26,9 @@ function viewCart() {
     var inCart = "In your cart, you have";
     if (newArray.length ===1) {
       inCart += newArray + '.';
-    } else if
-    inCart += (newArray[0] + )
+    } else if (newArray ===2) {
+      inCart += (newArray[0] + 'and' + newArray[1]);
+    }
 }
 
 function total() {
