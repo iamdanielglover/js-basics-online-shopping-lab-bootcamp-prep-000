@@ -19,7 +19,7 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
-  var newArray = []
+  var newarray = [];
   for(var i = 0; i < cart.length; i++) {
     newArray.push(`${item} at $${price}`);
     }
