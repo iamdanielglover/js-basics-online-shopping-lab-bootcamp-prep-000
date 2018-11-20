@@ -32,9 +32,7 @@ function viewCart() {
       var lastelement = newarray.pop();
       var other_item = newarray.join(', ');
       inCart += (other_item + ', and' + lastelement + '.');
-    } else if (newarray === 0) {
-      inCart = 'Your shopping cart is empty.'
-    }
+    } 
     return inCart;
 }
 
